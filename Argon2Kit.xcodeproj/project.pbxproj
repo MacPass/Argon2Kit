@@ -8,12 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		4CA1E4351D882EE100100002 /* Argon2Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA1E4341D882EE100100002 /* Argon2Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA1E4551D882F7A00100002 /* argon2.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA1E43D1D882F7A00100002 /* argon2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA1E4561D882F7A00100002 /* argon2.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CA1E43F1D882F7A00100002 /* argon2.c */; };
+		4CA1E4581D882F7A00100002 /* blake2-impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA1E4421D882F7A00100002 /* blake2-impl.h */; };
+		4CA1E4591D882F7A00100002 /* blake2.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA1E4431D882F7A00100002 /* blake2.h */; };
+		4CA1E45A1D882F7A00100002 /* blake2b.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CA1E4441D882F7A00100002 /* blake2b.c */; };
+		4CA1E45B1D882F7A00100002 /* blamka-round-opt.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA1E4451D882F7A00100002 /* blamka-round-opt.h */; };
+		4CA1E45C1D882F7A00100002 /* blamka-round-ref.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA1E4461D882F7A00100002 /* blamka-round-ref.h */; };
+		4CA1E45D1D882F7A00100002 /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CA1E4471D882F7A00100002 /* core.c */; };
+		4CA1E45E1D882F7A00100002 /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA1E4481D882F7A00100002 /* core.h */; };
+		4CA1E45F1D882F7A00100002 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CA1E4491D882F7A00100002 /* encoding.c */; };
+		4CA1E4601D882F7A00100002 /* encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA1E44A1D882F7A00100002 /* encoding.h */; };
+		4CA1E4611D882F7A00100002 /* genkat.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CA1E44B1D882F7A00100002 /* genkat.c */; };
+		4CA1E4621D882F7A00100002 /* genkat.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA1E44C1D882F7A00100002 /* genkat.h */; };
+		4CA1E4631D882F7A00100002 /* opt.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CA1E44D1D882F7A00100002 /* opt.c */; };
+		4CA1E4641D882F7A00100002 /* opt.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA1E44E1D882F7A00100002 /* opt.h */; };
+		4CA1E4691D882F7A00100002 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CA1E4531D882F7A00100002 /* thread.c */; };
+		4CA1E46A1D882F7A00100002 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA1E4541D882F7A00100002 /* thread.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4CA1E4311D882EE100100002 /* Argon2Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Argon2Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA1E4341D882EE100100002 /* Argon2Kit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Argon2Kit.h; sourceTree = "<group>"; };
 		4CA1E4361D882EE100100002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA1E43D1D882F7A00100002 /* argon2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = argon2.h; sourceTree = "<group>"; };
+		4CA1E43F1D882F7A00100002 /* argon2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = argon2.c; sourceTree = "<group>"; };
+		4CA1E4401D882F7A00100002 /* bench.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bench.c; sourceTree = "<group>"; };
+		4CA1E4421D882F7A00100002 /* blake2-impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "blake2-impl.h"; sourceTree = "<group>"; };
+		4CA1E4431D882F7A00100002 /* blake2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blake2.h; sourceTree = "<group>"; };
+		4CA1E4441D882F7A00100002 /* blake2b.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blake2b.c; sourceTree = "<group>"; };
+		4CA1E4451D882F7A00100002 /* blamka-round-opt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "blamka-round-opt.h"; sourceTree = "<group>"; };
+		4CA1E4461D882F7A00100002 /* blamka-round-ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "blamka-round-ref.h"; sourceTree = "<group>"; };
+		4CA1E4471D882F7A00100002 /* core.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = core.c; sourceTree = "<group>"; };
+		4CA1E4481D882F7A00100002 /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
+		4CA1E4491D882F7A00100002 /* encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encoding.c; sourceTree = "<group>"; };
+		4CA1E44A1D882F7A00100002 /* encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoding.h; sourceTree = "<group>"; };
+		4CA1E44B1D882F7A00100002 /* genkat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = genkat.c; sourceTree = "<group>"; };
+		4CA1E44C1D882F7A00100002 /* genkat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genkat.h; sourceTree = "<group>"; };
+		4CA1E44D1D882F7A00100002 /* opt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = opt.c; sourceTree = "<group>"; };
+		4CA1E44E1D882F7A00100002 /* opt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opt.h; sourceTree = "<group>"; };
+		4CA1E44F1D882F7A00100002 /* ref.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ref.c; sourceTree = "<group>"; };
+		4CA1E4501D882F7A00100002 /* ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ref.h; sourceTree = "<group>"; };
+		4CA1E4511D882F7A00100002 /* run.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = run.c; sourceTree = "<group>"; };
+		4CA1E4521D882F7A00100002 /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		4CA1E4531D882F7A00100002 /* thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thread.c; sourceTree = "<group>"; };
+		4CA1E4541D882F7A00100002 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +69,8 @@
 		4CA1E4271D882EE100100002 = {
 			isa = PBXGroup;
 			children = (
+				4CA1E43C1D882F7A00100002 /* include */,
+				4CA1E43E1D882F7A00100002 /* src */,
 				4CA1E4331D882EE100100002 /* Argon2Kit */,
 				4CA1E4321D882EE100100002 /* Products */,
 			);
@@ -52,6 +93,52 @@
 			path = Argon2Kit;
 			sourceTree = "<group>";
 		};
+		4CA1E43C1D882F7A00100002 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4CA1E43D1D882F7A00100002 /* argon2.h */,
+			);
+			name = include;
+			path = argon2/include;
+			sourceTree = "<group>";
+		};
+		4CA1E43E1D882F7A00100002 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4CA1E43F1D882F7A00100002 /* argon2.c */,
+				4CA1E4401D882F7A00100002 /* bench.c */,
+				4CA1E4411D882F7A00100002 /* blake2 */,
+				4CA1E4471D882F7A00100002 /* core.c */,
+				4CA1E4481D882F7A00100002 /* core.h */,
+				4CA1E4491D882F7A00100002 /* encoding.c */,
+				4CA1E44A1D882F7A00100002 /* encoding.h */,
+				4CA1E44B1D882F7A00100002 /* genkat.c */,
+				4CA1E44C1D882F7A00100002 /* genkat.h */,
+				4CA1E44D1D882F7A00100002 /* opt.c */,
+				4CA1E44E1D882F7A00100002 /* opt.h */,
+				4CA1E44F1D882F7A00100002 /* ref.c */,
+				4CA1E4501D882F7A00100002 /* ref.h */,
+				4CA1E4511D882F7A00100002 /* run.c */,
+				4CA1E4521D882F7A00100002 /* test.c */,
+				4CA1E4531D882F7A00100002 /* thread.c */,
+				4CA1E4541D882F7A00100002 /* thread.h */,
+			);
+			name = src;
+			path = argon2/src;
+			sourceTree = "<group>";
+		};
+		4CA1E4411D882F7A00100002 /* blake2 */ = {
+			isa = PBXGroup;
+			children = (
+				4CA1E4421D882F7A00100002 /* blake2-impl.h */,
+				4CA1E4431D882F7A00100002 /* blake2.h */,
+				4CA1E4441D882F7A00100002 /* blake2b.c */,
+				4CA1E4451D882F7A00100002 /* blamka-round-opt.h */,
+				4CA1E4461D882F7A00100002 /* blamka-round-ref.h */,
+			);
+			path = blake2;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -59,7 +146,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA1E4551D882F7A00100002 /* argon2.h in Headers */,
 				4CA1E4351D882EE100100002 /* Argon2Kit.h in Headers */,
+				4CA1E4621D882F7A00100002 /* genkat.h in Headers */,
+				4CA1E4581D882F7A00100002 /* blake2-impl.h in Headers */,
+				4CA1E45B1D882F7A00100002 /* blamka-round-opt.h in Headers */,
+				4CA1E46A1D882F7A00100002 /* thread.h in Headers */,
+				4CA1E4591D882F7A00100002 /* blake2.h in Headers */,
+				4CA1E4641D882F7A00100002 /* opt.h in Headers */,
+				4CA1E45C1D882F7A00100002 /* blamka-round-ref.h in Headers */,
+				4CA1E45E1D882F7A00100002 /* core.h in Headers */,
+				4CA1E4601D882F7A00100002 /* encoding.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA1E45D1D882F7A00100002 /* core.c in Sources */,
+				4CA1E4611D882F7A00100002 /* genkat.c in Sources */,
+				4CA1E4631D882F7A00100002 /* opt.c in Sources */,
+				4CA1E45F1D882F7A00100002 /* encoding.c in Sources */,
+				4CA1E4561D882F7A00100002 /* argon2.c in Sources */,
+				4CA1E45A1D882F7A00100002 /* blake2b.c in Sources */,
+				4CA1E4691D882F7A00100002 /* thread.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
